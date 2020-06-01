@@ -28,7 +28,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Understanding Cryptography/Ch. 2 - Stream Ciphers.md",
+            "file": "Understanding Cryptography/02 - Stream Ciphers.md",
             "mode": "source"
           }
         }
@@ -36,7 +36,8 @@
     ]
   },
   "lastOpenFiles": [
-    "Understanding Cryptography/Untitled.md",
-    "Untitled.md"
+    "Understanding Cryptography/Ch. 2 - Stream Ciphers.md",
+    "Untitled.md",
+    "Understanding Cryptography/Untitled.md"
   ]
 }
