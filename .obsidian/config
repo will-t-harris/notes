@@ -20,7 +20,7 @@
     "direction": "vertical",
     "children": [
       {
-        "id": "509232b1586a24c0",
+        "id": "8ba90888a85eb5d5",
         "type": "leaf",
         "dimension": null,
         "active": true,
@@ -28,7 +28,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "The Rust Book/05-structs.md",
+            "file": "Learn Node/Templating.md",
             "mode": "source"
           }
         }
@@ -36,11 +36,11 @@
     ]
   },
   "lastOpenFiles": [
+    "Learn Node/Templating.md",
+    "Learn Node/Routing.md",
+    "Learn Node/Untitled.md",
     "The Rust Book/05/Untitled.md",
-    "The Rust Book/Untitled.md",
-    "Understanding Cryptography/01 - Introduction to Cryptography and Data Security.md",
-    "Understanding Cryptography/Ch. 2 - Stream Ciphers.md",
-    "Untitled.md"
+    "The Rust Book/Untitled.md"
   ],
   "foldHeading": true,
   "foldIndent": true,
