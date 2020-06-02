@@ -1,3 +1,4 @@
+[[Routing]]
 Here, we will be using [pug](https://pugjs.org/api/getting-started.html) as our templating engine. Was formerly known as Jade.
 - pug is indentation-based
 - pug uses what emmet-style shortcuts for classes and ids

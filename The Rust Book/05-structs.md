@@ -1,8 +1,11 @@
+[[05-struct-method-syntax]]
 - The pieces of a struct can be different types
 
 - We name each piece of data so it's clear what the values mean
 
 - Structs are more flexible than tuples: you don't have to rely on the order of the data to specify or access the values of an instance
+
+- Structs do not implement `Display` trait by default, so we can't log their contents using the `println!()` macro, unless we use the `{:?}` debug trait (or `{:#?}` for pretty-print)
 
 - To define a struct:
 	- keyword `struct`

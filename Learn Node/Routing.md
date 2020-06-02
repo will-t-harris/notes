@@ -1,3 +1,4 @@
+[[Templating]]
 Inside of `/routes/index.js`:
 1. Import `express`
 	```js

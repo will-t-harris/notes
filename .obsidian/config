@@ -20,7 +20,7 @@
     "direction": "vertical",
     "children": [
       {
-        "id": "315f342e7f77626c",
+        "id": "8d384eb015fb76fd",
         "type": "leaf",
         "dimension": null,
         "active": true,
@@ -28,7 +28,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Understanding Cryptography/01 - Introduction to Cryptography and Data Security.md",
+            "file": "The Rust Book/06-enums-&-pattern-matching.md",
             "mode": "source"
           }
         }
@@ -36,11 +36,11 @@
     ]
   },
   "lastOpenFiles": [
-    "Understanding Cryptography/01 - Introduction to Cryptography and Data Security.md",
-    "Learn Node/Templating.md",
-    "Learn Node/Routing.md",
-    "Learn Node/Untitled.md",
-    "The Rust Book/05/Untitled.md"
+    "The Rust Book/Untitled.md",
+    "The Rust Book/05-struct-method-syntax.md",
+    "The Rust Book/05-structs.md",
+    "Understanding Cryptography/02 - Stream Ciphers.md",
+    "Understanding Cryptography/01 - Introduction to Cryptography and Data Security.md"
   ],
   "foldHeading": true,
   "foldIndent": true,
