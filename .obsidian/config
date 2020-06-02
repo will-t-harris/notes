@@ -20,7 +20,7 @@
     "direction": "vertical",
     "children": [
       {
-        "id": "8ba90888a85eb5d5",
+        "id": "315f342e7f77626c",
         "type": "leaf",
         "dimension": null,
         "active": true,
@@ -28,7 +28,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Learn Node/Templating.md",
+            "file": "Understanding Cryptography/01 - Introduction to Cryptography and Data Security.md",
             "mode": "source"
           }
         }
@@ -36,13 +36,14 @@
     ]
   },
   "lastOpenFiles": [
+    "Understanding Cryptography/01 - Introduction to Cryptography and Data Security.md",
     "Learn Node/Templating.md",
     "Learn Node/Routing.md",
     "Learn Node/Untitled.md",
-    "The Rust Book/05/Untitled.md",
-    "The Rust Book/Untitled.md"
+    "The Rust Book/05/Untitled.md"
   ],
   "foldHeading": true,
   "foldIndent": true,
-  "showLineNumber": true
+  "showLineNumber": true,
+  "lastOpenRightSidedockTab": "Backlinks"
 }
