@@ -1,10 +1,21 @@
+
 [[Routing]]
+In our express app, we can add locals to the app environment with a call to `app.use()`:
+- If we have a `helpers.js` file that defines a bunch of stuff/libraries that we want to include, we could do something like this:
+```js
+app.use((req, res, next) => {
+	res.locals.helpers = helpers
+})
+```
+- And then in our templates we can access the stuff in the helpers file by just using `#{h.helpers}`
+
 Here, we will be using [pug](https://pugjs.org/api/getting-started.html) as our templating engine. Was formerly known as Jade.
 - pug is indentation-based
 - pug uses what emmet-style shortcuts for classes and ids
 - [other attributes documentation](https://pugjs.org/language/attributes.html)
 - pug uses `#{}` to interpolate values inside the template inside of text
-	- use template literl interpolation to bring values into string literals
+	- use template literal interpolation to bring values into string literals
+	- we can also directly set locals to tags in the template: `h2=title` (assuming we have a `title` value in our locals object)
 - you can run JS inside of pug files, following a `-` or within an interpolated value
 	
 - `views` folder is where all of our `.pug` templates will live

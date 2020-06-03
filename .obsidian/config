@@ -8,7 +8,8 @@
     "Backlinks": true,
     "Command palette": true,
     "Markdown format importer": true,
-    "Word count": true
+    "Word count": true,
+    "Custom CSS": true
   },
   "isSidebarCollapsed": false,
   "isRightSidedockCollapsed": true,
@@ -20,7 +21,7 @@
     "direction": "vertical",
     "children": [
       {
-        "id": "8d384eb015fb76fd",
+        "id": "f0749b25caf0b082",
         "type": "leaf",
         "dimension": null,
         "active": true,
@@ -28,7 +29,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "The Rust Book/06-enums-&-pattern-matching.md",
+            "file": "The Rust Book/05-struct-method-syntax.md",
             "mode": "source"
           }
         }
@@ -36,14 +37,14 @@
     ]
   },
   "lastOpenFiles": [
-    "The Rust Book/Untitled.md",
     "The Rust Book/05-struct-method-syntax.md",
     "The Rust Book/05-structs.md",
-    "Understanding Cryptography/02 - Stream Ciphers.md",
-    "Understanding Cryptography/01 - Introduction to Cryptography and Data Security.md"
+    "The Rust Book/06-enums-&-pattern-matching.md",
+    "Untitled.md",
+    "Learn Node/Models.md"
   ],
   "foldHeading": true,
   "foldIndent": true,
-  "showLineNumber": true,
+  "showLineNumber": false,
   "lastOpenRightSidedockTab": "Backlinks"
 }

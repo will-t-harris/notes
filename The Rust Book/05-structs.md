@@ -1,4 +1,3 @@
-[[05-struct-method-syntax]]
 - The pieces of a struct can be different types
 
 - We name each piece of data so it's clear what the values mean
@@ -110,3 +109,5 @@ let origin = Point(0, 0, 0);
 
 - `black` and `origin` are *different types* because they're instances of different tuple structs
 - Each struct defined is a separate type, even if the fields have identical types
+
+[[05-struct-method-syntax]]
