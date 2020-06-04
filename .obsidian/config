@@ -11,7 +11,7 @@
     "Word count": true,
     "Custom CSS": true
   },
-  "isSidebarCollapsed": true,
+  "isSidebarCollapsed": false,
   "isRightSidedockCollapsed": true,
   "lastOpenSidebarTab": "File explorer",
   "workspaceLayout": {
@@ -29,7 +29,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Learn Node/07 - Using Async Await.md",
+            "file": "Understanding Cryptography/01 - Introduction to Cryptography and Data Security.md",
             "mode": "source"
           }
         }
@@ -37,11 +37,11 @@
     ]
   },
   "lastOpenFiles": [
+    "Understanding Cryptography/01 - Introduction to Cryptography and Data Security.md",
+    "Understanding Cryptography/02 - Stream Ciphers.md",
     "Learn Node/07 - Using Async Await.md",
     "Learn Node/Flash Messages.md",
-    "Learn Node/Using Async Await.md",
-    "Learn Node/Mixins.md",
-    "Learn Node/Models.md"
+    "Learn Node/Using Async Await.md"
   ],
   "foldHeading": true,
   "foldIndent": true,
@@ -53,7 +53,7 @@
         "modifiers": [
           "Mod"
         ],
-        "key": "b"
+        "key": "q"
       }
     ]
   },

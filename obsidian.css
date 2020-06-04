@@ -1,0 +1,4 @@
+.CodeMirror-cursor,
+div.CodeMirror-cursor {
+	visibility: visible !important;
+}

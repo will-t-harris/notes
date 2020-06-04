@@ -1,4 +1,3 @@
-[[]]
 ## Overview of Cryptography
 - Cryptography is very old
 	- Early examples date back to 2000 B.C.
@@ -143,11 +142,82 @@ Two important points ("crucial aspects") to remember:
 
 ### Modular Arithmetic and More Historical Ciphers
 
+- Modular arithmetic extremely important for modern cryptography, especially for asymmetric algorithms
+- Caesar cipher & affine cipher both use modular arithmetic
+	- Caesar = modular addition
+	- affine = modular multiplication
+
+#### Modular Arithmetic
+
+- Almost all crypto algorithms are based on arithmetic within finite sets of elements
+- Most number sets we're used to, however, are infinte (real numbers, natural numbers, etc)
+- Reading time from a clock is an example of a finite set of integers
+	- We go back to 1 after 12, rather than continuing on infinitely
+- **Casual rule of modular arithmetic:** divide by the modulus and consider the remainder
+
+##### Definition of Modulo Operation
+- Let $a, r, m \in Z$ (where Z is a set of all integers) and $m > 0$:
+	- $a \equiv r\mod m$
+	- *if $m$ divides $a-r$*
+	- *$m$ is called the modulus and $r$ is called the remainder*
+
+##### Implications of the Definition
+
+**Computation of the remainder**
+- It is always possible to write $a \in Z$ such that:
+	- $a = q \cdot m + r$ for $0 \le r < m$
+	- This essentially means that for any integer, we can always compute a remainder
+		- Proof of this hinges on demonstrating that *$m$ divides $a-r$*, which proves that the modulo operation is valid (?)
+
+**The remainder is not unique**
+- For every given modulus $m$ and number $a$, there are *infinitely* many valid remainders
+	- Example: we want to reduce $12 \mod 9$
+	- All of these results are correct according to the definition [[01 - Introduction to Cryptography and Data Security#Definition of Modulo Operation]]:
+		- $12 \equiv 3 \mod 9$
+		- $12 \equiv 21 \mod 9$
+		- $12 \equiv -6 \mod 9$
+	- There is a system behind this behavior:
+		- The set of numbers $\{..., -24, -15, -6, 3, 12, 21, 30, ...\}$ form an **equivalence class**
+		- The number of equivalence classes is proportional to the modulus operator (there are 8 more for modulus 9)
+			- $\{..., -27, -18, -9, 0, 9, 18, 27, ...\}$
+			- $\{..., -26, -17, -8, 1, 10, 19, 28, ...\}$
+			- *etc*
+
+**All members of a given equivalence class behave equally**
+- For a given modulus $m$, it doesn't matter which element from the class we choose for any given computation
+- This means that if we are doing calculations with a fixed modulus, which is usually the case, we can choose the class element that results in the easiest computation
+
+#### Integer Rings
+
+##### Definition of Integer Rings
+- *The integer ring $Z_{m}$ consists of:*
+	1. *The set $Z_{m}=\{0, 1, 2, ..., m-1\}$*
+	2. *Two operations "+" and "x" for all $a, b \in Z_{m}$ such that:*
+		1. *$a + b \equiv c \mod m$, ($c \in Z_{m}$)*
+		2. *$a \times b \equiv d \mod m$, ($d \in Z_{m}$)*
 
 
-
-
-
+##### Important Properties of Integer Rings
+- We can add and multiply any two numbers, and the result is always in the ring
+- Associative property holds for addition and multiplication:
+	- for all $a, b, c \in Z_{m}$
+		- $a + (b + c) = (a + b) + c$
+		- $a \cdot (b \cdot c) = (a \cdot b) \cdot c$
+- There is a neutral element 0 with respect to addition
+	- for every $a \in Z_{m}$
+		- $a + 0 \equiv a\mod m$
+- The additive inverse always exists
+	- for any element $a$ in the ring, $-a$ exists such that
+		- $a + (-a) \equiv 0 \mod m$
+- There is a neutral element 1 with respect to multiplication
+	- for every $a \in Z_{m}$
+		- $a \times 1 \equiv a \mod m$
+- The multiplicative inverse exists for some, **but not all**, elements
+	- if $a \in Z$ the inverse $a^{-1}$ is defined as:
+		- $a \cdot a^{-1} \equiv 1 \mod m$
+	- *if an inverse exists for this element, only then we can divide with it*
+	- an element has a multiplicative inverse only if the greatest common divisor between the number and the modulus is 1
+		- this relationship is called *relatively prime* or *coprime*
 
 
 
