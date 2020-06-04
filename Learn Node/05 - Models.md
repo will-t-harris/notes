@@ -17,4 +17,4 @@ We need to describe what the data will look like ahead of time
 	- we are using a pre-save hook to generate a slug using the slug package and the name defined on `this.name`
 	- because we want to access `this`, we can't use an arrow function here
 
-
+[[06 - Mixins]]

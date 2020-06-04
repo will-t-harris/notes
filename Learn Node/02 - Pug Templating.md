@@ -1,5 +1,4 @@
-
-[[Routing]]
+[[01 - Routing]]
 In our express app, we can add locals to the app environment with a call to `app.use()`:
 - If we have a `helpers.js` file that defines a bunch of stuff/libraries that we want to include, we could do something like this:
 ```js
@@ -49,30 +48,4 @@ router.get('/', (req, res) => {
 	- to use the layout (or other) templates, we use `extends layout` at the top of the pug file
 - we can use template **blocks** to essentially create template components that can be passed around
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+[[03 - MVC Pattern]]

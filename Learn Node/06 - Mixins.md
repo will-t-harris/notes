@@ -18,3 +18,5 @@ use mixin in another `.pug` file:
 +storeForm()
 ```
 we can pass arguments into mixins when using them
+
+[[07 - Using Async Await]]

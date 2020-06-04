@@ -11,7 +11,7 @@
     "Word count": true,
     "Custom CSS": true
   },
-  "isSidebarCollapsed": false,
+  "isSidebarCollapsed": true,
   "isRightSidedockCollapsed": true,
   "lastOpenSidebarTab": "File explorer",
   "workspaceLayout": {
@@ -29,7 +29,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "The Rust Book/05-struct-method-syntax.md",
+            "file": "Learn Node/07 - Using Async Await.md",
             "mode": "source"
           }
         }
@@ -37,14 +37,25 @@
     ]
   },
   "lastOpenFiles": [
-    "The Rust Book/05-struct-method-syntax.md",
-    "The Rust Book/05-structs.md",
-    "The Rust Book/06-enums-&-pattern-matching.md",
-    "Untitled.md",
+    "Learn Node/07 - Using Async Await.md",
+    "Learn Node/Flash Messages.md",
+    "Learn Node/Using Async Await.md",
+    "Learn Node/Mixins.md",
     "Learn Node/Models.md"
   ],
   "foldHeading": true,
   "foldIndent": true,
   "showLineNumber": false,
-  "lastOpenRightSidedockTab": "Backlinks"
+  "lastOpenRightSidedockTab": "Backlinks",
+  "hotkeys": {
+    "app:toggle-left-sidebar": [
+      {
+        "modifiers": [
+          "Mod"
+        ],
+        "key": "b"
+      }
+    ]
+  },
+  "alwaysUpdateLinks": true
 }

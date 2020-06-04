@@ -1,4 +1,3 @@
-[[Pug Templating]]
 Inside of `/routes/index.js`:
 1. Import `express`
 	```js
@@ -35,33 +34,4 @@ router.get('/reverse/:name', (req, res) => {
 
 - Can use `res.render()` to render out a response using a templating engine
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+[[02 - Pug Templating]]
