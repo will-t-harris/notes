@@ -91,4 +91,4 @@ let sum = x + y
 
 To use `y` as an `i8` we must explicitly handle the `None` case
 
-[[06-match-control-flow-operator]]
+[[06-control-flow-match-operator]]

@@ -11,7 +11,7 @@
     "Word count": true,
     "Custom CSS": true
   },
-  "isSidebarCollapsed": false,
+  "isSidebarCollapsed": true,
   "isRightSidedockCollapsed": true,
   "lastOpenSidebarTab": "File explorer",
   "workspaceLayout": {
@@ -21,7 +21,7 @@
     "direction": "vertical",
     "children": [
       {
-        "id": "f0749b25caf0b082",
+        "id": "bf81b3b380145f03",
         "type": "leaf",
         "dimension": null,
         "active": true,
@@ -29,7 +29,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Understanding Cryptography/01 - Introduction to Cryptography and Data Security.md",
+            "file": "Learn Node/10 - Creating Editorial Flow.md",
             "mode": "source"
           }
         }
@@ -37,15 +37,15 @@
     ]
   },
   "lastOpenFiles": [
-    "Understanding Cryptography/01 - Introduction to Cryptography and Data Security.md",
-    "Understanding Cryptography/02 - Stream Ciphers.md",
-    "Learn Node/07 - Using Async Await.md",
-    "Learn Node/Flash Messages.md",
-    "Learn Node/Using Async Await.md"
+    "Learn Node/10 - Creating Editorial Flow.md",
+    "The Rust Book/06-control-flow-match-operator.md",
+    "The Rust Book/06-enums-&-pattern-matching.md",
+    "The Rust Book/Untitled.md",
+    "The Rust Book/06-match-control-flow-operator.md"
   ],
   "foldHeading": true,
   "foldIndent": true,
-  "showLineNumber": false,
+  "showLineNumber": true,
   "lastOpenRightSidedockTab": "Backlinks",
   "hotkeys": {
     "app:toggle-left-sidebar": [
@@ -54,6 +54,14 @@
           "Mod"
         ],
         "key": "q"
+      }
+    ],
+    "app:open-vault": [
+      {
+        "modifiers": [
+          "Mod"
+        ],
+        "key": "`"
       }
     ]
   },

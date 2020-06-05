@@ -19,6 +19,13 @@ await store.save()
 ```
 Passes off request to db to save the store, comes back with a promise with either the store instance or an error
 
+We can condense this operation onto one line:
+```js
+const store = await new Store(req.body).save()
+```
+
+---
+
 Because we're using `async / await` we can either wrap the `store.save()` call in a `try / catch`, or define some error handlers that will come after our routes in the express app 
 
 ```js

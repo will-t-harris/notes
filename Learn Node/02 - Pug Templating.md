@@ -47,5 +47,7 @@ router.get('/', (req, res) => {
 - we can set up a base layout template, representing the html document defaults, that can then be shadowed with other values (?)
 	- to use the layout (or other) templates, we use `extends layout` at the top of the pug file
 - we can use template **blocks** to essentially create template components that can be passed around
+- `!=` is [unescaped buffered code](https://pugjs.org/language/code.html#unescaped-buffered-code)
+	- This is dangerous because of the potential for cross-site-scripting. If using in a scenario with user-input **always** sanitize the inputs!
 
 [[03 - MVC Pattern]]
