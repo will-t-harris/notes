@@ -29,7 +29,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Learn Node/11 - Upload & Resize Images.md",
+            "file": "Learn Node/10 - Creating Editorial Flow.md",
             "mode": "source"
           }
         }
@@ -37,9 +37,9 @@
     ]
   },
   "lastOpenFiles": [
+    "Learn Node/10 - Creating Editorial Flow.md",
     "Learn Node/11 - Upload & Resize Images.md",
     "Learn Node/Untitled.md",
-    "Learn Node/10 - Creating Editorial Flow.md",
     "Learn Node/05 - Models.md",
     "The Rust Book/06-control-flow-match-operator.md"
   ],

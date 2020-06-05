@@ -85,3 +85,5 @@ exports.updateStore = async (req, res) => {
 ```
 
 We have to set the body.location.type to "Point" because `findOneAndUpdate()` apparently doens't trigger the defaults from the schema
+
+[[11 - Upload & Resize Images]]
