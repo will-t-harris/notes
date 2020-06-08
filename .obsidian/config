@@ -11,7 +11,7 @@
     "Word count": true,
     "Custom CSS": true
   },
-  "isSidebarCollapsed": false,
+  "isSidebarCollapsed": true,
   "isRightSidedockCollapsed": true,
   "lastOpenSidebarTab": "File explorer",
   "workspaceLayout": {
@@ -29,7 +29,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Learn Node/10 - Creating Editorial Flow.md",
+            "file": "The Rust Book/07-packages-and-crates.md",
             "mode": "source"
           }
         }
@@ -37,11 +37,11 @@
     ]
   },
   "lastOpenFiles": [
-    "Learn Node/10 - Creating Editorial Flow.md",
-    "Learn Node/11 - Upload & Resize Images.md",
-    "Learn Node/Untitled.md",
-    "Learn Node/05 - Models.md",
-    "The Rust Book/06-control-flow-match-operator.md"
+    "The Rust Book/07-packages-and-crates.md",
+    "The Rust Book/06-enums-&-pattern-matching.md",
+    "The Rust Book/06-control-flow-match-operator.md",
+    "The Rust Book/Untitled.md",
+    "The Rust Book/06-control-flow-if-let.md"
   ],
   "foldHeading": true,
   "foldIndent": true,

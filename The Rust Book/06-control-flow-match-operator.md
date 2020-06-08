@@ -121,4 +121,34 @@ match some_u8_value {
 
 `()` is the unit value, so nothing happens in the `_` arm
 
-[[06-control-flow-if-let]]
+## if let Syntax
+
+`match` statements are exhaustive: they must deal with every possible branch explicitly.
+
+`if let` syntax allows us to deal with just one possible branch and *do something* if that branch evaluates to true
+
+Rather than this:
+```rust
+let some_u8_value = Some(0u8);
+match some_u8_value {
+	Some(3) => println!("three!");
+	_=> (),
+}
+```
+
+We can do this:
+```rust
+if let Some(3) = some_u8_value {
+	println!("three!");
+}
+```
+
+We can also use an `else` clause with `if let` to explicitly handle the `_` case from `match` statements
+
+```rust
+if let Some(3) = some_u8_value {
+	println!("three!");
+} else {
+	println!("not three!");
+}
+```
