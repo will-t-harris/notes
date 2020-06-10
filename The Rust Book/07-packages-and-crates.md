@@ -55,3 +55,12 @@ crate
          ├── take_order
          ├── serve_order
          └── take_payment
+
+## [Paths for Referring to an Item in the Module Tree](https://doc.rust-lang.org/book/ch07-03-paths-for-referring-to-an-item-in-the-module-tree.html)
+
+Paths can take two forms:
+1. Absolute paths start from a crate root using a crate name or literal crate
+2. Relative paths start from the current module using `self`, `super`, or an identifier in the current module
+
+Either form separates identifiers with the `::` syntax
+

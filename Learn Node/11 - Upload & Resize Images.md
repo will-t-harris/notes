@@ -65,3 +65,5 @@ router.post(
 	catchErrors(storeController.updateStore)
 );
 ```
+
+[[12 - Routing & Templating Individual Pages]]

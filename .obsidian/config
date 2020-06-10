@@ -21,27 +21,24 @@
     "direction": "vertical",
     "children": [
       {
-        "id": "6fb7204dc4361233",
+        "id": "955e16de4a269b75",
         "type": "leaf",
         "dimension": null,
         "active": true,
         "master": "",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "The Rust Book/07-packages-and-crates.md",
-            "mode": "source"
-          }
+          "type": "empty",
+          "state": {}
         }
       }
     ]
   },
   "lastOpenFiles": [
-    "The Rust Book/07-packages-and-crates.md",
-    "The Rust Book/06-enums-&-pattern-matching.md",
-    "The Rust Book/06-control-flow-match-operator.md",
-    "The Rust Book/Untitled.md",
-    "The Rust Book/06-control-flow-if-let.md"
+    "Learn Node/14 - Custom MongoDB Aggregations.md",
+    "Learn Node/13 - Use Pre-Save Hooks to Create Unique Slugs.md",
+    "Learn Node/Untitled.md",
+    "Untitled.md",
+    "Learn Node/12 - Routing & Templating Individual Pages.md"
   ],
   "foldHeading": true,
   "foldIndent": true,
