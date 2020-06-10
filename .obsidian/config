@@ -11,7 +11,7 @@
     "Word count": true,
     "Custom CSS": true
   },
-  "isSidebarCollapsed": true,
+  "isSidebarCollapsed": false,
   "isRightSidedockCollapsed": true,
   "lastOpenSidebarTab": "File explorer",
   "workspaceLayout": {
@@ -21,24 +21,27 @@
     "direction": "vertical",
     "children": [
       {
-        "id": "955e16de4a269b75",
+        "id": "fb93615b39436a3b",
         "type": "leaf",
         "dimension": null,
         "active": true,
         "master": "",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "The Rust Book/07-packages-and-crates.md",
+            "mode": "source"
+          }
         }
       }
     ]
   },
   "lastOpenFiles": [
+    "The Rust Book/07-packages-and-crates.md",
+    "The Rust Book/05-struct-method-syntax.md",
+    "The Rust Book/05-structs.md",
     "Learn Node/14 - Custom MongoDB Aggregations.md",
-    "Learn Node/13 - Use Pre-Save Hooks to Create Unique Slugs.md",
-    "Learn Node/Untitled.md",
-    "Untitled.md",
-    "Learn Node/12 - Routing & Templating Individual Pages.md"
+    "Learn Node/13 - Use Pre-Save Hooks to Create Unique Slugs.md"
   ],
   "foldHeading": true,
   "foldIndent": true,
