@@ -11,7 +11,7 @@
     "Word count": true,
     "Custom CSS": true
   },
-  "isSidebarCollapsed": false,
+  "isSidebarCollapsed": true,
   "isRightSidedockCollapsed": true,
   "lastOpenSidebarTab": "File explorer",
   "workspaceLayout": {
@@ -29,7 +29,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "The Rust Book/07-packages-and-crates.md",
+            "file": "Learn Node/14 - Custom MongoDB Aggregations.md",
             "mode": "source"
           }
         }
@@ -37,10 +37,10 @@
     ]
   },
   "lastOpenFiles": [
+    "Learn Node/14 - Custom MongoDB Aggregations.md",
     "The Rust Book/07-packages-and-crates.md",
     "The Rust Book/05-struct-method-syntax.md",
     "The Rust Book/05-structs.md",
-    "Learn Node/14 - Custom MongoDB Aggregations.md",
     "Learn Node/13 - Use Pre-Save Hooks to Create Unique Slugs.md"
   ],
   "foldHeading": true,
