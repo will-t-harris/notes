@@ -11,7 +11,7 @@
     "Word count": true,
     "Custom CSS": true
   },
-  "isSidebarCollapsed": true,
+  "isSidebarCollapsed": false,
   "isRightSidedockCollapsed": true,
   "lastOpenSidebarTab": "File explorer",
   "workspaceLayout": {
@@ -29,7 +29,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Learn Node/14 - Custom MongoDB Aggregations.md",
+            "file": "Learn Node/16 - Creating User Accounts.md",
             "mode": "source"
           }
         }
@@ -37,11 +37,11 @@
     ]
   },
   "lastOpenFiles": [
-    "Learn Node/14 - Custom MongoDB Aggregations.md",
-    "The Rust Book/07-packages-and-crates.md",
-    "The Rust Book/05-struct-method-syntax.md",
-    "The Rust Book/05-structs.md",
-    "Learn Node/13 - Use Pre-Save Hooks to Create Unique Slugs.md"
+    "Learn Node/16 - Creating User Accounts.md",
+    "Learn Node/17 - Saving Registered & Validated Users to the DB.md",
+    "Learn Node/Untitled.md",
+    "Learn Node/15 - Multiple Query Promises Async-Await.md",
+    "Learn Node/14 - Custom MongoDB Aggregations.md"
   ],
   "foldHeading": true,
   "foldIndent": true,

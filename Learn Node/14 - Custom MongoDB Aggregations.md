@@ -52,3 +52,5 @@ block content
             span.tag__text= t._id
             span.tag__count= t.count
 ```
+
+[[15 - Multiple Query Promises Async-Await]]
