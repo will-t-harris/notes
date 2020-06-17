@@ -286,3 +286,5 @@ use std::io::{self, Write};
 ```rust
 use::std::collections::*;
 ```
+
+[[07-separating-modules-into-different-files]]
