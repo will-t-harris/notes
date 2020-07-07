@@ -43,4 +43,4 @@
 - "Better" and "Perfect" are the two enemies of "What is Actually Needed"
 	- Pick the thing that is just over the threshold. That is **qualitatively better** than all the other things you could do
 
-Did this work? Is 
+Did this work? Is
