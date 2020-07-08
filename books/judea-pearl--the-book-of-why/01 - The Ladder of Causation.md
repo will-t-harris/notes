@@ -19,48 +19,52 @@
 
  ## The Three Levels of Causation
 
-1. Seeing / Association
-	- Involves detection of regularities in our environment.
-	- Many animals share in this level.
-	- We say that one event is associated with another if observing one changes the likelihood of observing the other.
-	- **Activity**: Seeing, observing
-	- **Questions**: 
-		- What if I see...? 
-		- How are the variables related?
-		- How would seeing X change my belief in Y?
-	- **Examples**: 
-		- What does a symptom tell me about a disease? 
-		- What does a survey tell us about the election results?
-2. Doing / Intervention
-	- "Involves predicting the effect(s) of deliberate alterations of the environment and choosing among these alterations to produce a desired outcome." [^2]
-	- Few other animals share in this level.
-	- Use of tools, as long as it is intentional use, can be taken as a sign of reaching this level.
-	- **Activity**: Doing, intervening
-	- **Questions**: 
-		- What if I do...? 
-		- How? 
-		- What would Y be if I do X?
-		- How can I make Y happen?
-	- **Examples**:
-		- If I take aspirin, will my headache be cured?
-		- What if we ban cigarettes?
-3. Imagining / Counterfactuals
-	- Possessing a theory of the tool telling us why it works and what to do when it doesn't.
-	- This level, he argues, is what prepared us for revolutions in agriculture and science and led to the drastic change in our species' impact on the planet.
-	- **Activity**:
-		- Imagining
-		- Retrospection
-		- Understanding
-	- **Questions**:
-		- What if I had done...?
-		- Why?
-		- Was it X that caused Y?
-		- What if X had not occurred?
-		- What if I had acted differently?
-	- **Examples**:
-		- Was it the aspirin that stopped my headache?
-		- Would Kennedy be alive is Oswald had not killed him?
-		- What if I had not smoked for the previous 2 years?
+### Seeing / Association
+
+- Involves detection of regularities in our environment.
+- Many animals share in this level.
+- We say that one event is associated with another if observing one changes the likelihood of observing the other.
+- **Activity**: Seeing, observing
+- **Questions**: 
+	- What if I see...? 
+	- How are the variables related?
+	- How would seeing X change my belief in Y?
+- **Examples**: 
+	- What does a symptom tell me about a disease? 
+	- What does a survey tell us about the election results?
+
+### Doing / Intervention
+- "Involves predicting the effect(s) of deliberate alterations of the environment and choosing among these alterations to produce a desired outcome." [^2]
+- Few other animals share in this level.
+- Use of tools, as long as it is intentional use, can be taken as a sign of reaching this level.
+- **Activity**: Doing, intervening
+- **Questions**: 
+	- What if I do...? 
+	- How? 
+	- What would Y be if I do X?
+	- How can I make Y happen?
+- **Examples**:
+	- If I take aspirin, will my headache be cured?
+	- What if we ban cigarettes?
+
+### Imagining / Counterfactuals
+
+- Possessing a theory of the tool telling us why it works and what to do when it doesn't.
+- This level, he argues, is what prepared us for revolutions in agriculture and science and led to the drastic change in our species' impact on the planet.
+- **Activity**:
+	- Imagining
+	- Retrospection
+	- Understanding
+- **Questions**:
+	- What if I had done...?
+	- Why?
+	- Was it X that caused Y?
+	- What if X had not occurred?
+	- What if I had acted differently?
+- **Examples**:
+	- Was it the aspirin that stopped my headache?
+	- Would Kennedy be alive is Oswald had not killed him?
+	- What if I had not smoked for the previous 2 years?
 
 - Modern machine learning programs operate almost entirely on the first level, as they did thirty years ago.
 	- "They are driven by a stream of observations to which they attempt to fit a function" [^3] Raw data drives this fitting process.
