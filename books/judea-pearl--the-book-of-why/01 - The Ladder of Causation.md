@@ -90,6 +90,60 @@
 		- He points to this as **the earliest example of a creature that is pure imagination.**
 		- The argument is that this sculpture is a precursor of every philosophical theory, scientific discovery, and technological innovation. "Every one of these had to take shape in someone's imagination before it was realized in the physical world." [^7]
 
+## The Mini-Turing Test
+
+- Turing's "imitation game" (put forward in 1950) posits that a computer could be called a "thinking machine" if an ordinary human communicating via text could not tell whether they were communicating with a human or a computer.
+	- Turing also proposed a strategy for passing the imitation game: "Instead of trying to produce a program to simulate the adult mind, why not rather try to produce one which simulates the child's? Presumably the child brain is something like a notebook as one buys it from the stationer's. Rather little mechanism, and lots of blank sheets." [^8]
+- The [Loebner Prize](https://en.wikipedia.org/wiki/Loebner_Prize) competition offers $100,000 to any program that can fool all four of its judges. Over the last 25 years, no program has even fooled half of the judges.
+- **The key component of this "childlike intelligence" is a mastery of causation**.
+- Pearl's "mini-Turing" test asks the question: "How can machines (and people) represent causal knowledge in a way that would enable them to access the necessary information swiftly, answer questions correctly, and do it with ease, as a three-year-old child can?" [^9]
+	- The process is to first take a simple story, encode it on a machine somehow, and then test to see if the machine is able to answer causal questions that a human could answer.
+	- "mini" for two reasons
+		1. Confined to causal reasoning, excluding other realms of human knowledge such as vision and natural language.
+		2. The story can be encoded in any "convenient representation." The machine is not burdened with acquiring the story from personal experience.
+	- The representation is really important, and needs to come first, because without representation we wouldn't know how to store information for future use.
+		- Paradigm in AI and the study of cognition: "Representation first, acquisition second."
+	- Causal diagrams not only can communicate knowledge easily, but these models pass the mini-Turing test.
+
+### Firing Squad Example
+
+- Scenario is that a prisoner is about to be executed by firing squad. A certain chain of events *must* occur for this to happen.
+1. Court orders the execution (CO)
+2. Order goes to a captain (C)
+3. Captain signals the soldiers (A, B) to fire
+4. Assume that (A, B) never miss, they only fire on command, and if either one shoots the prisoner dies (D)
+
+#### Association Diagram
+
+```mermaid
+graph TD
+CO-->C
+C-->A
+C-->B
+A-->D
+B-->D
+```
+
+- Each of the unknowns (CO, C, A, B, D) is a boolean value: D === true means the prisoner is dead; D === false means the prisoner is alive
+- Using this graph we can start answering causal questions:
+	- **Association**: If the prisoner is dead, does that mean the court order was given?
+		- We can trace up the graph and, using standard logic, conclude that the soldiers wouldn't have fired without their captain's command, which had to come from a court order
+	- **Intervention**: What is A decides to fire on his own initiative? Will the prisoner be dead or alive?
+		- If just using rules of logic, this question is meaningless because it goes against the "rules" defined in the original arrangement. **Computers are not good at breaking rules**.
+		- We need to "teach" the computer the difference between **observing** an event and **making an event happen**
+			- To the computer: "Whenever you make an event happen, remove all arrows that point to that event and continue the analysis by ordinary logic, as if the arrows had never been there."
+			- "Making an event happen means that you remove it from all other influences and subject it to one influence&mdash;that which enforces its happening."" [^10]
+
+#### Intervention Diagram
+
+```mermaid
+graph TD;
+classDef FixFont font-size:11px;
+CO --> C;
+C --> B;
+A[A==True]:::FixFont --> D;
+B --> D;
+```
 
 	[^1]: p.24
 	[^2]: p.27
@@ -98,3 +152,6 @@
 	[^5]: p.32
 	[^6]: p.33
 	[^7]: p.35
+	[^8]: p.37
+	[^9]: p.37
+	[^10]: p.41
