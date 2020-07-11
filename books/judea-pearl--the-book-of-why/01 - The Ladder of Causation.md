@@ -128,12 +128,7 @@ B-->D
 - Using this graph we can start answering causal questions:
 	- **Association**: If the prisoner is dead, does that mean the court order was given?
 		- We can trace up the graph and, using standard logic, conclude that the soldiers wouldn't have fired without their captain's command, which had to come from a court order
-	- **Intervention**: What is A decides to fire on his own initiative? Will the prisoner be dead or alive?
-		- If just using rules of logic, this question is meaningless because it goes against the "rules" defined in the original arrangement. **Computers are not good at breaking rules**.
-		- We need to "teach" the computer the difference between **observing** an event and **making an event happen**
-			- To the computer: "Whenever you make an event happen, remove all arrows that point to that event and continue the analysis by ordinary logic, as if the arrows had never been there."
-			- "Making an event happen means that you remove it from all other influences and subject it to one influence&mdash;that which enforces its happening."" [^10]
-
+	
 #### Intervention Diagram
 
 ```mermaid
@@ -145,13 +140,42 @@ A[A==True]:::FixFont --> D;
 B --> D;
 ```
 
-	[^1]: p.24
-	[^2]: p.27
-	[^3]: p.30
-	[^4]: p.31
-	[^5]: p.32
-	[^6]: p.33
-	[^7]: p.35
-	[^8]: p.37
-	[^9]: p.37
-	[^10]: p.41
+- **Intervention**: What if A decides to fire on his own initiative? Will the prisoner be dead or alive?
+		- If just using rules of logic, this question is meaningless because it goes against the "rules" defined in the original arrangement. **Computers are not good at breaking rules**.
+		- We need to "teach" the computer the difference between **observing** an event and **making an event happen**
+			- To the computer: "Whenever you make an event happen, remove all arrows that point to that event and continue the analysis by ordinary logic, as if the arrows had never been there."
+			- "Making an event happen means that you remove it from all other influences and subject it to one influence&mdash;that which enforces its happening."" [^10]
+			- Nothing about the intervened value should affect other variables in the model
+- **If we *see* A shoot, we conclude that B shot too. If A *decides* to shoot, or if we *make* A shoot, then we can't conclude anything about B's behavior just from that information.**
+
+#### Counterfactual Diagram
+
+```mermaid
+graph TD;
+classDef FixFont font-size:11px;
+CO[CO==True]:::FixFont --> C;
+C[C==True]:::FixFont --> B;
+A[A==False]:::FixFont --> D;
+B[B==True]:::FixFont --> D;
+```
+
+- From observing that the prisoner is dead, we ask **what would have happened** if soldier A had decided not to fire,
+- To pass the mini-Turing test, the computer must conclude that the prisoner would be dead in this fictitious world as well, because B would still have shot.
+- We have to teach the computer how to selectively break the rules of logic
+
+- **A causal model entails more than merely drawing arrows. Behind the arrows, there are probabilities. When we draw an arrow from X to Y, we are implicitly saying that some probability rule or function specifies how Y would change if X were to change. We might know what the rule is; more likely, we will have to estimate it from data.**[^12]
+
+
+
+[^1]: p.24
+[^2]: p.27
+[^3]: p.30
+[^4]: p.31
+[^5]: p.32
+[^6]: p.33
+[^7]: p.35
+[^8]: p.37
+[^9]: p.37
+[^10]: p.41
+[^11]: p.41
+[^12]: p.45
