@@ -155,17 +155,42 @@ graph TD;
 classDef FixFont font-size:11px;
 CO[CO==True]:::FixFont --> C;
 C[C==True]:::FixFont --> B;
-A[A==False]:::FixFont --> D;
-B[B==True]:::FixFont --> D;
+A[A==False]:::FixFont --> D=?:::FixFont;
+B[B==True]:::FixFont --> D=?:::FixFont;
 ```
 
-- From observing that the prisoner is dead, we ask **what would have happened** if soldier A had decided not to fire,
+- From observing that the prisoner is dead, we ask **what would have happened if soldier A had decided not to fire?**
 - To pass the mini-Turing test, the computer must conclude that the prisoner would be dead in this fictitious world as well, because B would still have shot.
 - We have to teach the computer how to selectively break the rules of logic
 
 - **A causal model entails more than merely drawing arrows. Behind the arrows, there are probabilities. When we draw an arrow from X to Y, we are implicitly saying that some probability rule or function specifies how Y would change if X were to change. We might know what the rule is; more likely, we will have to estimate it from data.**[^12]
 
+- One of the more interesting features of causal diagrams is the fact that we can leave mathematical details unspecified. The structure of the diagram enables us to estimate causal and counterfactual relationships.
+- Even when the probabilities involved in the causal diagram change, the structure of the diagram will remain invariant, which is "the key secret to causal modeling."[^13]
 
+## On Probabilities and Causation
+
+- The way that causality was formally articulated historically was through conditional probabilities. "If we see X, then the probability of Y increases." But the increase might happen for "other reasons." Because of this, the pursuit inevitably ends up trying to eliminate these "other reasons."
+
+- Judea Pearl isn't attempting to **define** causation in this book, rather he's trying to explain how to answer causal queries and what information is needed to answer them.
+	- He draws a parallel with Euclid's axioms: we don't need a definition of a point or a line to answer all queries about them on the basis of [Euclid's postulates](https://en.wikipedia.org/wiki/Euclidean_geometry#Axioms) (axioms)
+	- What's odd to me about this assertion is the fact that Euclid does put forward definitions of points and lines right at the beginning of the *Elements*. Perhaps the distinction is that this is only a linguistic definition, the definition of a point as "that which has no part" in Euclidean geometry is never actually *used* anywhere, merely put forward as a term to orient the reader.
+- This notion of a "common-cause," also called a **confounder**, has historically been difficult for philosophers.
+	- If we take probability-raising criteria "at face value", then high ice-cream sales cause crime
+		- This is because the probability of crime is higher in months when more ice cream is sold.
+		- We can explain this by saying that both are more probable in summer, when the weather is warmer.
+		- Still, how can we put forward philosophical criterion which could tell us that the weather, and not the sale of ice cream, is **causing** the increase in crime?
+- "Once you misrepresent 'probability raising' in the language of conditional probabilities, no amount of probabilistic patching will get you to the next rung of the ladder. As strange as it may sound, the notion of probability raising cannot be expressed in terms of probabilities" [^14]
+- We "rescue" the probability raising idea by implementing the "do" operator
+	- We can say that X causes Y if the probability of Y when we do X is greater than the probability of Y when we don't do X
+		- `P(Y | do(X)) > P(Y)`
+		- This is an intervention (rung two) expression
+		- "If we have a causal diagram and data on hand and a researcher asks [the above], we can answer his question coherently and algorithmically and thus decide if X is a cause of Y in the probability-raising sense." [^15]
+- Pearl introduced the idea of Bayesian networks in the mid-80's, which focuses on incorporating probabilities into an idealized, decentralized brain for decision-making. 
+	- "Given that we see certain facts, Bayesian networks can swiftly compute the likelihood that certain other facts are true or false." [^16]
+	- This explanation immediately seems like rung-one reasoning, because it doesn't allow for intervention (changing the graph)
+
+- **"The main point is this: while probabilities encode our beliefs about a static world, causality tells us whether and how probabilities change when the world changes, be it by intervention or by act of imagination."**[^17]
 
 [^1]: p.24
 [^2]: p.27
@@ -179,3 +204,8 @@ B[B==True]:::FixFont --> D;
 [^10]: p.41
 [^11]: p.41
 [^12]: p.45
+[^13]: p.46
+[^14]: p.49
+[^15]: p. 49
+[^16]: p.50
+[^17]: p. 51
