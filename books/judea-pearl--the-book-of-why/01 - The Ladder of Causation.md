@@ -192,6 +192,8 @@ B[B==True]:::FixFont --> D=?:::FixFont;
 
 - **"The main point is this: while probabilities encode our beliefs about a static world, causality tells us whether and how probabilities change when the world changes, be it by intervention or by act of imagination."**[^17]
 
+[[02 - From Buccaneers to Guinea Pigs - The Genesis of Causal Inference]]
+
 [^1]: p.24
 [^2]: p.27
 [^3]: p.30
