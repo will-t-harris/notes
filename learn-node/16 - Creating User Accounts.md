@@ -117,39 +117,48 @@ router.post('/register', userController.validateRegister)
 	- express validator provides us with the methods `sanitizeBody`, `checkBody`, `notEmpty`, `normalizeEmail`
 	- If there are errors, they are added to the `req.validationErrors` object, which we can check at the end to see if we are good to send the request along to the next step
 ```js
-// registration validation middleware
-exports.validateRegister = (req, res, next) => {
-	// This comes off of expressValidator, which we used in the express app file
-	req.sanitizeBody("name");
-	req.checkBody("name", "You must supply a name!").notEmpty();
-	req.checkBody("email", "That email is not valid!").notEmpty();
-	req.sanitizeBody("email").normalizeEmail({
-		remove_dots: false,
-		remove_extension: false,
-		gmail_remove_subaddress: false,
-	});
-	req.checkBody("password", "Password cannot be blank!").notEmpty();
-	req
-		.checkBody("password-confirm", "Confirmed password cannot be blank!")
-		.notEmpty();
-	req
-		.checkBody("password-confirm", "Oops, your passwords do not match")
-		.equals(req.body.password);
+const {check, validationResult} = require('express-validator')
 
-	const errors = req.validationErrors();
-	if (errors) {
+exports.validateRegister = (req, res, next) => {
+	check("email")
+		.notEmpty()
+		.isEmail()
+		.normalizeEmail({
+			gmail_remove_dots: false,
+			gmail_remove_subaddress: false,
+		})
+		.withMessage("That is not a valid email");
+	check("name")
+		.notEmpty()
+		.trim()
+		.escape()
+		.withMessage("You must supply a name");
+	check("password", "Password must be at least 8 characters")
+		.notEmpty()
+		.isLength({
+			min: 8,
+		})
+		.withMessage("Password must be at least 8 characters");
+	check("passwordConfirm")
+		.notEmpty()
+		.isLength({ min: 8 })
+		.withMessage("Confirmed password cannot be blank");
+
+	const errors = validationResult(req);
+
+	if (!errors.isEmpty()) {
 		req.flash(
 			"error",
-			errors.map((err) => err.msg)
+			errors.mapped((err) => err.msg)
 		);
-		res.render("register", {
+		res.send({
 			title: "Register",
 			body: req.body,
 			flashes: req.flash(),
 		});
-		return; // stop function from running if there were errors
+		return;
 	}
-	next(); // call next method, there were no errors
+	return next();
 };
 ```
 
