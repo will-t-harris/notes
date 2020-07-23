@@ -65,7 +65,37 @@
 - One solace to Wright with his system, against all the criticism of the correlation crowd, was that he could answer questions that cannot be answered any other way.
 - Pearl shows an analysis that Wright did where he investigated how much a guinea pig's birth weight is affected if it spends one additional day in the womb.
   - The obvious approach is to weigh pups that have spent 1 day longer in the womb compared to pups that spent one day less
-    - The issue Wright identified was that there also seems to be a relationship with the litter size in that are born later usually have fewer litter mates.
+    - The issue Wright identified was that there also seems to be a relationship with the litter size in that pups that are born later usually have fewer litter mates. This means that the causal relationship is more complex than just days in the womb
+	- He used path diagrams to plot out the entire system, and the already-known affects of all the component pieces, such that algebra could be used to solve for the unknown pieces.
+- Two lessons from this example:
+	1. Causal analysis allows us to quantify processes in the real world, not just patterns in the data
+	2. Path analysis allows us to draw conclusions about individual causal relationships by examining the diagram as a whole. "The entire structure of the diagram may be needed to estimate each individual parameter." [^14]
+- **Why didn't Wright's path analysis find more widespread adoption in his time?**
+	- "Path analysis requires scientific thinking, as does every exercise in causal inference. Statistics, as frequently practiced, discourages it and encourages 'canned' procedures instead. Scientists will always prefer routine calculations on data to methods that challenge their scientific knowledge." [^15]
+- The promise of Wright's causal diagrams for the study of causality continued to not be realized until the 1990s.
+- Wright wrote a paper in 1983 defending his approach from attack by mathematician [Samuel Karlin](https://en.wikipedia.org/wiki/Samuel_Karlin). Karlin had two main criticisms.
+	1. Path analysis assumes that the relationships between two variables in a path diagram are linear, allowing a single number to be used to describe the relationship.
+		- Non-linear theory was a few years around the corner
+	2. He argued that the data already contain all scientific wisdom, in line with previous statistical thinking. This would mean that there is no reason to take into account the process that generated the data, we can arrive at true understanding with a "model-free" approach.
+- Ultimately, Karlin and other statisticians insisted that we can fully understand correlative relationships just by examining the data. This is similar to how "big data" analytics endeavors operate now. What's missing is a discussion of the relative importance of various causes, which Pearl argues is necessary to get beyond the first rung of the Ladder of Causation.
+
+## From Objectivity to Subjectivity -- The Bayesian Connection
+
+- Path analysis should be based on the user's personal understanding of causal processes, reflected in the causal diagram.
+- Causal analysis forces the user to make a subjective commitment. A causal diagram must be drawn that reflects a qualitative belief.
+- "Where causation is concerned, a grain of wise subjectivity tells us more about the real world than any amount of objectivity."
+- Pearl argues that most of the tools of statistics aim for complete objectivity, except for Bayesian analysis.
+
+### Bayesian Analysis
+
+- Prior Belief + New Evidence -> Revised Belief
+- Gives the example of a coin that lands on heads on 9 out of 10 tosses
+	- Traditional statistics would think that the coin wasn't fair, and bet with 9:1 odds that the next toss will be heads.
+	- Bayesian statistics would consider prior knowledge about the coin.
+		- Did it come from the local store, or from a shady character?
+		- If it's an ordinary coin, then it probably doesn't have a 90% chance to land heads
+		- If it came from a shady character, then the probability might be 90% that it'll land heads.
+- Bayesian statistics gives us an objective way to combine observed evidence with prior knowledge.
 
 [^1]: p.55
 [^2]: p.56
@@ -80,3 +110,5 @@
 [^11]: p.75
 [^12]: p.79
 [^13]: p.79-80
+[^14]: p.84
+[^15]: p.84-85
