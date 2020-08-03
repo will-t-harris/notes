@@ -77,7 +77,7 @@
 	2. [[Path analysis]] allows us to draw conclusions about individual causal relationships by examining the diagram as a whole. "The entire structure of the diagram may be needed to estimate each individual parameter." [^14]
 - **Why didn't Wright's path analysis find more widespread adoption in his time?**
 	- "[[Path analysis]] requires scientific thinking, as does every exercise in causal inference. Statistics, as frequently practiced, discourages it and encourages 'canned' procedures instead. Scientists will always prefer routine calculations on data to methods that challenge their scientific knowledge." [^15]
-- The promise of Wright's [[causal diagrams]] for the study of causality continued to not be realized until the 1990s.
+- The promise of Wright's [[causal diagram]]s for the study of causality continued to not be realized until the 1990s.
 - Wright wrote a paper in 1983 defending his approach from attack by mathematician [Samuel Karlin](https://en.wikipedia.org/wiki/Samuel_Karlin). Karlin had two main criticisms.
 	1. Path analysis assumes that the relationships between two variables in a path diagram are linear, allowing a single number to be used to describe the relationship.
 		- Non-linear theory was a few years around the corner

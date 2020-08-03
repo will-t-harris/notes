@@ -98,7 +98,7 @@
 		2. The story can be encoded in any "convenient representation." The machine is not burdened with acquiring the story from personal experience. 
 			- The representation is really important, and needs to come first, because without representation we wouldn't know how to store information for future use. 
 			- Paradigm in AI and the study of cognition: "Representation first, acquisition second." 
-			- [[Causal diagrams]] not only can communicate knowledge easily, but these models pass the mini-Turing test.
+			- [[Causal diagram]]s not only can communicate knowledge easily, but these models pass the mini-Turing test.
 
 ### Firing Squad Example
 
@@ -161,7 +161,7 @@ B[B==True]:::FixFont --> D=?:::FixFont;
 
 - **A [[causal model]] entails more than merely drawing arrows. Behind the arrows, there are probabilities. When we draw an arrow from X to Y, we are implicitly saying that some probability rule or function specifies how Y would change if X were to change. We might know what the rule is; more likely, we will have to estimate it from data.**[^12]
 
-- One of the more interesting features of [[causal diagrams]] is the fact that we can leave mathematical details unspecified. The structure of the diagram enables us to estimate causal and counterfactual relationships.
+- One of the more interesting features of [[causal diagram]]s is the fact that we can leave mathematical details unspecified. The structure of the diagram enables us to estimate causal and counterfactual relationships.
 - Even when the probabilities involved in the [[causal diagram]] change, the structure of the diagram will remain invariant, which is "the key secret to causal modeling."[^13]
 
 ## On Probabilities and Causation
