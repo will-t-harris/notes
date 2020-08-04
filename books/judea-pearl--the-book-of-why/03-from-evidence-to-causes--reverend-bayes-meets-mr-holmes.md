@@ -72,12 +72,50 @@
 
 ### [[Bayesian network]]s: What Causes Say About Data
 
-- We've already gone over "simple Bayesian networks":
+- We've already gone over "simple Bayesian networks" or two node networks:
 	- Tea -> Scones
 	- Disease -> Test
 	- Hypothesis -> Evidence
 - In contrast to [[causal diagram]]s, a [[Bayesian network]] carries no assumption that the arrow has any causal meaning. It only indicates that we know the [[Forward probability]]. [[Bayes's rule]] tells us how to reverse the procedure, "specifically by multiplying the prior probability by a likelihood ratio." [^9]
+- After two node networks, we have three node networks or [[junction]]s
+	- The three types of [[junction]]s "are sufficient for reading off all the independencies implied by a [[Bayesian network]], regardless of how complicated." [^10]
+	- When examining these patterns, it is important to remember that if additional causal paths surround them, then these paths must also be accounted for.
+	- [[Chain]]: $A$ -> $B$ -> $C$
+		- Gives the example of Fire -> Smoke -> Alarm
+		- The fire only causes the alarm to go off by way of smoke
+		- The mediator ($B$) 'screens off' information about $A$ from $C$, and vice versa
+		- We can 'condition on' a variable and only look at situations where, for example, Smoke is `true`. In that instance, Alarm will always be `true`.
+			- In this example, we could say that Fire and Alarm are **conditionally independent**
+	2. [[Fork]]: $A$ <- $B$ -> $C$
+		- Here $B$ is called a common cause of [[confounder]] of $A$ and $C$
+		- Gives the example of Shoe Size <- Age of Child -> Reading Ability (from [David Freedman](https://en.wikipedia.org/wiki/David_A._Freedman))
+			- Kids with a larger shoe size tend to have better reading ability, but that is only because of their age.
+			- If we condition on the age of child, then the correlation between shoe size and reading ability should disappear
+	3. [[Collider]]: $A$ -> $B$ <- $C$
+		- Gives the example of Talent -> Celebrity <- Beauty (from [Felix Elwert](https://sociology.wisc.edu/staff/elwert-felix-2/) and [Chris Winship](https://scholar.harvard.edu/cwinship/home))
+		- "Here we assume that both talent and beauty contribute to an actor's success, but beauty and talent are completely unrelated to one another in the general population." [^11]
+		- This pattern works in the opposite way to the prior two when we condition on the middle variable.
+			- [[collider bias]] or the [[explain away effect]]:
+				- If we hold celebrity `true`, then talent and beauty become related.
+					- If we look only at famous actors, there will be a negative correlation between talent and beauty.
+					- "Finding out that a celebrity is unattractive increases our belief that he or she is talented." [^12]
+				- Ultimately this means that given the outcome Celebrity = `true`, talent and beauty are inversely related, **even though they are not inversely related in the population as a whole**
+- "These three junctions&mdash;chains, forks, and colliders&mdash;are like keyholes through the door that separates the first and second levels of the [[Ladder of Causation]]. If we peek through them, we can see the secrets of the causal process that generated the data we observe; each stands for a distinct pattern of causal flow, and leaves its mark in the form of conditional dependences and independences in the data. In my public lectures I often call them 'gifts from the gods' because they enable us to test a [[causal model]], discover new models, evaluate effects of [[intervention]]s, and much more." [^13]
 
+### Where is My Bag? From Aachen to Zanzibar
+
+- In addition to diagrams and arrows, [[Bayesian network]]s also need [[conditional probability tables]]. Pearl calls these the 'fuel' of the [[Bayesian network]].
+- The probability tables provide quantifiable data for the diagrams and arrows
+- Gives the example of landing in Zanzibar after making a tight connection in Aachen, and waiting for your bag at the carousel. What are the chances that your suitcase did not actually make it onto the plane before leaving Aachen?
+- Bag on Plane -> Bag on Carousel <- Elapsed Time
+	- The bag must be on the plane to begin with
+	- The more time elapses, the greater the probability that the bag will arrive at the carousel provided it was on the plane to begin with.
+- To turn the diagram into a [[Bayesian network]], we must specify [[conditional probability tables]] to quantify each variable.
+- We assume that the bags are unloaded from the plane at a constant rate
+-  First, if the bag never made it on the plane, then no matter how much time passes the bag will never be on the carousel
+-  ![[Pasted image.png]]
+-  This sort of computation is tedious to do by hand, and quickly can become too complex for even powerful computers.
+-  It is important to reduce the complexity of the diagram under consideration and try to operate on 'sparse' networks
 
 
 [^1]: p.95
@@ -89,3 +127,7 @@
 [^7]: p.109
 [^8]: p.110
 [^9]: p.113
+[^10]: p.115
+[^11]: p.115
+[^12]: p.115
+[^13]: p.116
