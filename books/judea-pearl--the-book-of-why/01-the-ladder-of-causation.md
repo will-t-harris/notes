@@ -42,7 +42,7 @@
 - **Questions**: - What if I do...? - How? - What would Y be if I do X? - How can I make Y happen?
 - **Examples**: - If I take aspirin, will my headache be cured? - What if we ban cigarettes?
 
-### Imagining / [[Counterfactuals]]
+### Imagining / [[counterfactual]]s
 
 - Possessing a theory of the tool telling us why it works and what to do when it doesn't.
 - This level, he argues, is what prepared us for revolutions in agriculture and science and led to the drastic change in our species' impact on the planet.
@@ -73,7 +73,7 @@
 	- If we have a sufficiently strong and accurate **[[causal model]]**, we can use observational data (rung-one) to answer interventional (rung-two) questions. 
 	- The causal model is required for machine learning to answer questions about interventions, because the causal model breaks the rules of the environment the machine was trained in. It won't be able to break out to a level of intervention-type thinking without a causal model to bring it up another level.
 
-- The third level consists of [[counterfactuals]]. Why questions. 
+- The third level consists of [[counterfactual]]s. Why questions. 
 	- To answer these questions we must in effect go back in time, change history, and ask "What would have happened if I had not done X?" 
 	- "This ability most distinguishes human from animal intelligence, as well as from model-blind versions of AI and machine learning." [^6] 
 	- Science is already in the habit of making useful claims about would-haves, things that have not happened. 
@@ -98,7 +98,7 @@
 		2. The story can be encoded in any "convenient representation." The machine is not burdened with acquiring the story from personal experience. 
 			- The representation is really important, and needs to come first, because without representation we wouldn't know how to store information for future use. 
 			- Paradigm in AI and the study of cognition: "Representation first, acquisition second." 
-			- [[Causal diagram]]s not only can communicate knowledge easily, but these models pass the mini-Turing test.
+			- [[causal diagram]]s not only can communicate knowledge easily, but these models pass the mini-Turing test.
 
 ### Firing Squad Example
 
