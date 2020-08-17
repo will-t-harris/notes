@@ -1,0 +1,2 @@
+- write to JSON from discord command
+- how to read from JSON and do work (ping server with reminder, maybe schedule event to a calendar)

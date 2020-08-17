@@ -23,3 +23,4 @@
 	- `yarn add -D @nuxtjs/tailwindcss`
 	- This doesn't *require* a `tailwind.config.js` file
 	- To get vscode autocomplete, the config file is necessary
+	- Add the package to the `buildModules` array in `nuxt.config.js`
