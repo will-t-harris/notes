@@ -43,5 +43,11 @@ struct TupleStruct(T1, T2, ...);
 - Unit structs implement nothing, and are useful for generics
 - Structs can also contain methods, using the `impl` keyword
 - Structs have a 'spread' syntax `..` called the [struct update syntax](https://doc.rust-lang.org/stable/book/ch05-01-defining-structs.html#creating-instances-from-other-instances-with-struct-update-syntax)
-	- The update syntax must be at the end of the struct
+	- The update syntax must be at the end of the struct	
 	- Any fields that you want to overwrite come before the update
+
+## Lifetimes
+
+Bound to the scope within which it is created
+
+**through modules and stop**
