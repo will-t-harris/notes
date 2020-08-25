@@ -29,4 +29,14 @@
 ## CSS
 
 - Comes with support for CSS modules and `styled-jsx` by default
-- 
+
+## Pre-Rendering
+
+- The process of generating HTML for each page in advance, rather than relying on client-side JS
+- Next has two forms of pre-rendering: static generation and SSR
+	- static generation: generate HTML during the build process
+	- SSR: generate HTML on request
+- Next lets us choose which pre-rendering method we want on a per-page basis
+- `getStaticProps` is an exported function that runs during build and provides data to components via props. **It can only be run in page components**
+
+ 

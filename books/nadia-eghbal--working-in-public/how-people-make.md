@@ -311,3 +311,5 @@ Platforms like GitHub are essential for enabling stadiums. Here she seems to be 
 
 ## Roles, Incentives, and Relationships
 
+Our previous model for why people make things was based off of [Ronald Coase](https://en.wikipedia.org/wiki/Ronald_Coase)'s theory of the firm, which suggests that firms emerge naturally as a means of reducing transaction costs in the market. His theory implies that there is no reason for individuals to collaborate on OSS because the transaction costs are too high when compared with writing software with professional colleagues.
+
