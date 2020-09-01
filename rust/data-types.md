@@ -49,5 +49,3 @@ struct TupleStruct(T1, T2, ...);
 ## Lifetimes
 
 Bound to the scope within which it is created
-
-**through modules and stop**
