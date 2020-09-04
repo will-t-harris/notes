@@ -1,0 +1,1 @@
+- To cover the background without allowing the svg to tile, use `background-size = cover`
