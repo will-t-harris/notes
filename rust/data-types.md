@@ -49,3 +49,9 @@ struct TupleStruct(T1, T2, ...);
 ## Lifetimes
 
 Bound to the scope within which it is created
+
+## Iterators
+
+Implement the `Iter` trait
+Can call `next()` to hit next step in iterator
+Ways of processing streams of information
