@@ -1,4 +1,4 @@
-# The [[Ladder of Causation]]
+# The Ladder of Causation
 
 - First encountered the ladder in reading [[Genesis]] for "the hundredth time"[^1].
 - God asked [[Adam and Eve]] _what_ they had done, they both answered with _why_. 
