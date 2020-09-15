@@ -1,6 +1,6 @@
 # The Ladder of Causation
 
-- First encountered the ladder in reading [[Genesis]] for "the hundredth time"[^1].
+- First encountered the ladder in reading [[Genesis]] for "the hundredth time"[^2].
 - God asked [[Adam and Eve]] _what_ they had done, they both answered with _why_. 
 	- G: "Have you eaten from the tree which I forbade you?" 
 	- Adam: "The woman you gave me for a companion, she gave me fruit from the tree and I ate". 
@@ -10,7 +10,7 @@
 - More importantly, **both somehow were convinced that naming causes would paint their actions in a different light**.
 - He believes these nuances carry three "profound implications": 
 1. Early in our evolution, we realized that the world consists not only of dry facts, but rather an intricate web of cause-effect relationships. 
-2. Causal explanations make up the bulk of our knowledge, and should be the cornerstone of machine intelligence. 
+2. Causal explanations make up the bulk of our knowledge, and should be the cornerstone of machine intelligence. Untitled
 3. Our transition from "processors of data" to "makers of explanations" wasn't gradual, it required an external push (the forbidden fruit of Eden). He extrapolates that **no machine can derive explanations raw data without an external push**.
 - Somehow we as a species developed a "causal imagination" that allows us to imagine nonexistent things. He, along with [[Yuval Harari]], think that this was the key to everything.
 - Returning to the story of [[Genesis]], it is impossible to claim that Eve caused you to eat the fruit if you are unable to posit a counterfactual. It necessitates the ability to imagine a world in which she did not hand you the fruit.
