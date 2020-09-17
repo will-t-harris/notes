@@ -42,3 +42,19 @@ Recapitulating instead of iterating.
 Brings up Vannevar Bush's essay [[as-we-may-think]].
 Mark Bernstein's [[hypertext gardens]].
 Points out that the words Bush used to describe his Memex&mdash;to link, annotate, change, summarize, copy&mdash;are the verbs of "gardens."
+
+In the Memex, the major linking activity falls on the reader. It's a participatory process.
+
+Links in blogging define who you're in conversation with.
+
+He sees the web in its current form not as a reconfigurable model of understanding, but as a sequence of sealed-shut presentations.
+
+Compares the more than 1 billion people on facebook with the roughly 31,000 people maintaining the English Wikipedia. Direct example of the lure of the stream, and the lack of interest in creating gardens.
+
+Compression of knowledge does violence to that knowledge's history.
+
+> If we could build environments that really encourage people to share their knowledge rather than to have conversations that lock people out, if we could fund those sorts of tools I think we'd see a lot of progress 
+
+GitHub has taught a generation of programmers that copies are good, that proliferation is beneficial and not something to be feared. Fork away, it builds a stronger network.
+
+> We can imagine a world so much better than this one if only we can get our heads out of the stream for a little bit and build the garden we need.
