@@ -143,7 +143,7 @@
 - The relationship between the diagram and the data allows us to perform 'experiments' without actually doing anything in the real world. Because we know that the causal relationships hold, they essentially become thought experiments.
 	- I don't feel like I fully understand this, but this is his claim
 
-
+[[04-confounding-and-deconfounding]]
 
 
 

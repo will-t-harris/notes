@@ -40,6 +40,26 @@ It is so important that the process be truly random that often a [[double blind]
 
 [[randomized controlled trial]]s, while useful, are not always possible. He gives the example of examining the effect of obesity on heart disease: we cannot randomly assign people to be obese or not. Or to smoke or not.
 
+## The New Paradigm of Confounding
+
+Confounding ([[confounder]]) can be loosely defined as anything that leads to a discrepancy between observing and intervening. (see p. 151).
+
+> "Confounding is not a statistical notion. It stands for the discrepancy between what we want to assess (the causal effect) and what we actually do assess using statistical methods." [^7]
+
+[[Exchangebility]] -- Robins & Greenfield approach that requires the researcher to consider the treatment group, imagine what would have happened if they hadn't gotten treatment, and then judge whether the outcome would be the same as for those who had never had treatment. This can be used as a determinant of whether confounding exists in the study.
+
+They expressed this idea of confounding ([[confounder]]) in terms of potential outcomes, dividing the population into four types of individuals: doomed, causative, preventive, and immune.
+
+He uses a flu vaccine as an example:
+
+1. Doomed people are those for whom the vaccine will never work
+2. Causative people are those for whom the vaccine causes the disease
+3. Preventive people are those for whom the vaccine prevents the disease
+4. Immune people are those who will not get the disease in either case
+
+The exchangeable bit here is that the proportion between these four groups in the experiment ought to be the same as the proportion in the general population, otherwise there is a [[confounder]] and our estimate of the effectiveness of the vaccine may be off.
+
+Pearl argues that the biggest benefit to the [[Exchangebility]] approach is that it shows that the prior definitions of confounding 'were inadequate.' However their definition still falls short because we can't know in which group a person will be, so we can't know if the experimental group and the general population are exchangeable.
 
 
 ---
@@ -49,3 +69,4 @@ It is so important that the process be truly random that often a [[double blind]
 [^4]: p.147
 [^5]: p.149
 [^6]: p.149
+[^7]: p.151
