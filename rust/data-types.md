@@ -55,3 +55,30 @@ Bound to the scope within which it is created
 Implement the `Iter` trait
 Can call `next()` to hit next step in iterator
 Ways of processing streams of information
+
+Can call methods like map, reduce, etc on iterators.
+
+Can `collect()` iterators into other data types
+
+## Box
+
+`std::boxed::Box`
+
+"A smart pointer used to store data on the heap, which also allows us to wrap a recursive type"
+
+## Arc
+
+`std::sync::Arc`
+
+"A thread-safe reference-counting pointer. 'Arc' stands for 'Atomically Reference Counted'"
+
+In general, you cannot obtain a mutable reference to something inside an `Arc` because it is by definition a shared resource.
+
+If you need to mutate, use `Mutex`, `RwLock`, or one of the `Atomic` types.
+
+## Traits
+
+> Traits are similar to a feature often called *interfaces* in other languages, although with some differences
+
+Defines shared methods that all implementations of a given trait must fulfill.
+Traits are an expression of shared behavior across different types.
