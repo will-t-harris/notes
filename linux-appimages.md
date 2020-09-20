@@ -1,0 +1,1 @@
+[AppImageLauncher](https://github.com/TheAssassin/AppImageLauncher) helps integrate AppImages into your DE.
