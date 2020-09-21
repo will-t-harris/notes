@@ -1,0 +1,4 @@
+Bias introduced in the process of selecting individuals, groups, or data for analysis.
+
+- [Wikipedia article](https://en.wikipedia.org/wiki/Selection_bias)
+> Selection bias is the bias introduced by the selection of individuals, groups or data for analysis in such a way that proper randomization is not achieved, thereby ensuring that the sample obtained is not representative of the population intended to be analyzed.[1] It is sometimes referred to as the selection effect. The phrase "selection bias" most often refers to the distortion of a statistical analysis, resulting from the method of collecting samples. If the selection bias is not taken into account, then some conclusions of the study may be false.

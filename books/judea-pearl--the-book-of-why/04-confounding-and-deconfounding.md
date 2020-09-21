@@ -61,6 +61,14 @@ The exchangeable bit here is that the proportion between these four groups in th
 
 Pearl argues that the biggest benefit to the [[Exchangebility]] approach is that it shows that the prior definitions of confounding 'were inadequate.' However their definition still falls short because we can't know in which group a person will be, so we can't know if the experimental group and the general population are exchangeable.
 
+## The Do-Operator and the Back-Door Criterion
+
+A [[back-door path]] is any path from X to Y that starts with an arrow pointing into X.
+
+X and Y will be deconfounded if we block every back-door path, since these paths allow for "spurious correlation between X and Y."
+
+
+[[05-the-smoke-filled-debate]]
 
 ---
 [^1]: p.137
