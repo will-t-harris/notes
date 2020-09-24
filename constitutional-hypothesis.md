@@ -1,0 +1,1 @@
+The argument that a 'smoking gene' accounted for the increased risk of cancer in smokers, rather than the fact that they were smokers.

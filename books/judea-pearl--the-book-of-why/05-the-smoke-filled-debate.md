@@ -28,4 +28,17 @@ Some drawbacks of a [[case-control study]] that Pearl points to are:
 3. It is susceptible to [[recall-bias]]
 4. It is susceptible to [[selection-bias]]
 
+[Jerome Cornfield](https://en.wikipedia.org/wiki/Jerome_Cornfield) put forward a crucial rebuttal of Fisher's objection by resorting to a mathematical analysis of the issue. He argued that, given that smokers have nine times the risk of developing lung cancer, if there were a [[confounder]] such as a 'smoking gene,' it would have to be at least nine times as common in smokers to explain the increase in risk.
+
+This means that if 11 percent of nonsmokers have the 'smoking gene,' then 99 percent of smokers must have it. And if 12 percent or more of nonsmokers have it, then it's mathematically impossible for over 100 percent of smokers to have it. This argument is called [[cornfield-inequality]]. 
+
+Pearl points to this argument as the beginning of an approach called [[sensitivity-analysis]].
+
+[[hills-criteria]] arise at this point out of the surgeon general's advisory committee in 1963 (Hill put forward his version of the criteria in 1965).
+
+This committee led to a sea-change in how the American government, and its people, viewed smoking, which caused the restrictions on advertisement and the requirement of warnings, etc.
+
+Ultimately Pearl's point in this chapter is to demonstrate that what was lacking in all of these approaches was a way to examine causality effectively. He points to the power of [[causal diagram]]s again as being crucial to moving beyond this sort of confusion.
+
+
 [^1]: p. 173
