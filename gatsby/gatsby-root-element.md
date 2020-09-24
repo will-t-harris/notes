@@ -1,0 +1,1 @@
+In a Gatsby site, the root element has an id of `#___gatsby`

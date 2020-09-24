@@ -1,0 +1,1 @@
+To use art direction with `gatsby-background-image`, define an array of `fixed` or `fluid` images. [Docs](https://www.gatsbyjs.com/plugins/gatsby-background-image/?=background#how-to-use-with-art-direction-support)
