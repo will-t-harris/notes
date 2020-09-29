@@ -82,3 +82,9 @@ If you need to mutate, use `Mutex`, `RwLock`, or one of the `Atomic` types.
 
 Defines shared methods that all implementations of a given trait must fulfill.
 Traits are an expression of shared behavior across different types.
+
+## Threads
+
+`use std::thread`
+
+To create a thread call the `thread::spawn` function and pass it a closure containing the code we want to run in the new thread.
