@@ -1,0 +1,1 @@
+If you're trying to capture data in Sentry but no exception is being thrown, you can use `Sentry.captureMessage()` to force capturing the message and all the previously built up context.
