@@ -27,3 +27,6 @@ Which after Babel is (or without Babel it would be)
 ```
 <img src="data:image/png;base64; [the base64 string]" />
 ```
+
+---
+https://stackoverflow.com/questions/8499633/how-to-display-base64-images-in-html
