@@ -4,3 +4,5 @@
 [How to do 90% of what plugins do with just vim](https://www.youtube.com/watch?v=XA2WjJbmmoM&t=50s)
 [Mastering the Vim Language](https://www.youtube.com/watch?v=wlR5gYd6um0)
 [Alan Kay - Lecture: History of Computers & User Interface Images & Symbols - Oct 1989](https://www.youtube.com/watch?v=6ZdxiQoOBgs)
+[Rich Hickey - Simple Made Easy](https://www.youtube.com/watch?v=SxdOUGdseq4)
+[Gerry Sussman - We Really Don't Know How to Compute!](https://www.youtube.com/watch?v=O3tVctB_VSU)
