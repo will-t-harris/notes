@@ -1,0 +1,4 @@
+Using `column` and `sed`:
+```bash
+:<range>! column -t | sed 's/ = /=/'
+````
